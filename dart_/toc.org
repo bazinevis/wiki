@@ -1,11 +1,8 @@
 #+title: Table of Contents
 
-* TODO Introducing Dart
+the goal is after reading this book, reader can without any help (except this book) and without looking on any code, begin to write code. this book is comprehensive and in detail. 
 
-** ready set go?
-
-
-** Once upon a time
+* TODO Once upon a time Dart
 *** features
 *** AOT vs JOT
 *** mobile
@@ -14,7 +11,7 @@
 *** dart pad
 ** hello world program
 
-* TODO Core
+* TODO Foundations
 ** Statements
 *** control flow
 **** conditionals
@@ -125,3 +122,5 @@
 ** asynchronous error handling
 ** client server programming
 ** security
+
+happily ever after
