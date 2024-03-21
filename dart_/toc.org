@@ -1,5 +1,7 @@
 #+title: Table of Contents
 
+I want the book and site has a consistent art style. art in displaying images and graphs and logo.
+
 the goal is after reading this book, reader can without any help (except this book) and without looking on any code, begin to write code. this book is comprehensive and in detail. 
 
 * TODO Once upon a time Dart
