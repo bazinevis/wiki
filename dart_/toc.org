@@ -1,10 +1,12 @@
 #+STARTUP: overview
 #+title: Table of Contents
-I want the book and site has a consistent art style. art in displaying images and graphs and logo.
 
-the goal is after reading this book, reader can without any help
-(except this book) and without looking on any code, begin to write
-code. this book is comprehensive and in detail.
++ I want the book and site has a consistent art style. art in displaying images and graphs and logo.
++ the goal is after reading this book, reader can without any help (except this book) and without looking on any code, begin to write code. this book is comprehensive and in detail.
++ every text node has some prerequisites and every text node can be a prerequisite to another text node. 
++ every text node has number of read and passed tag.
++ (application/web) & book
++ in application & web i should show what are the prerequisites of current text node and how many times they were read and are they passed or not. 
 
 * TODO Once Upon a Time Dart
 ** Setting up things
