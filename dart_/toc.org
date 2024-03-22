@@ -1,20 +1,23 @@
+#+STARTUP: overview
 #+title: Table of Contents
-
 I want the book and site has a consistent art style. art in displaying images and graphs and logo.
 
-the goal is after reading this book, reader can without any help (except this book) and without looking on any code, begin to write code. this book is comprehensive and in detail. 
+the goal is after reading this book, reader can without any help
+(except this book) and without looking on any code, begin to write
+code. this book is comprehensive and in detail.
 
-* TODO Once upon a time Dart
-*** features
-*** AOT vs JOT
-*** mobile
+* TODO Once Upon a Time Dart
 ** Setting up things
 *** installation of tools
 *** dart pad
+** design principles
 ** hello world program
 
-* TODO Foundations
-** Statements
+<<<<<<< HEAD
+<<<<<<< HEAD
+* TODO Fundamentals
+** Statements & Expressions
+>>>>>>> master
 *** control flow
 **** conditionals
 ***** if else
@@ -26,8 +29,8 @@ the goal is after reading this book, reader can without any help (except this bo
 **** switch statement
 **** break and continue
 **** collection if
-**** collection for
-** functions
+*** collection for
+** Functions
 *** functions as objects
 *** closures
 *** function types
@@ -35,6 +38,26 @@ the goal is after reading this book, reader can without any help (except this bo
 *** anonymous functions and arrow syntax
 ** object oriented
 *** everything is an object
+*** classes
+**** creating objects
+**** default constructor
+**** inheritance
+**** extends keyword
+**** super keyword
+**** polymorphism
+***** static polymorphism
+***** dynamic polymorphism
+**** encapsulation
+**** abstract classes and methods
+**** interfaces
+**** callable classes
+**** accessors
+**** getters and setters
+**** noSuchMethod
+**** constant objects and fields
+**** metaclass
+**** finals
+**** identity and equality
 *** private member class
 *** mixins
 *** all kinds of object constructors
@@ -46,83 +69,79 @@ the goal is after reading this book, reader can without any help (except this bo
 **** private constructors
 **** factory constructors
 **** constant constructors
+** Comments
+** Type System
+*** type checking
+*** type conversion
+*** null safety
+*** type test - is keyword
+*** casting
+*** static type
 ** data types
 *** type inference
 *** var keyword
 *** collections
 *** iterators
-** classes
-*** creating objects
-*** default constructor
-*** inheritance
-*** extends keyword
-*** super keyword
-*** polymorphism
-**** static polymorphism
-**** dynamic polymorphism
-*** encapsulation
-*** abstract class
-*** interfaces
-*** callable classes
-** data structures
-*** lists
-*** maps
-*** sets
 ** operators
 *** operators precedence
 *** spread operator
 ** variables
-
-* TODO Intermediate
-** annotation
-** exception handling
+** generic
+*** generic functions
+*** generic collection
+* TODO Dart API
+** dart:core
+** dart:math
+** dart:io
+*** file handling
+** dart:async
+** dart:convert
+** dart:html
+** dart:svg
+** dart:web_audio
+** dart:ui
+** dart:mirrors
+*** reflection
+** lists
+** maps
+** sets
+** Implementing data structures
+* TODO Advanced Concepts
+** Metadata
+** Concurrency
+*** future
+*** zones
+*** async and await keywords
+*** streams
+** Exception Handling
 *** finally
 *** try catch
 *** rethrow
 *** stack traces
 *** custom exception
-** standard library
-*** dart:core
-*** dart:math
-*** dart:io
-*** dart:async
-*** dart:convert
-*** dart:html
-*** dart:svg
-*** dart:web_audio
-*** dart:ui
-*** dart:mirrors
-** types
-*** type checking
-*** type conversion
-*** null safety
-*** static type
-** immutable collection
-
-* TODO Advanced
-** Concurrency and asynchronous programming
-*** future
-*** zones
-*** async and await keywords
-** file handling
-** metaprogramming
-*** code generation
+*** asynchronous error handling
 ** packages
 *** creating and publishing a package
 *** pub tool
-** streams
-** generic
-*** generic functions
-*** generic collection
-** reflection
 ** internationalization
-** dart and web programming
-*** dart and html
-*** calling dart from javascript
-*** dart and JavaScript inter operation
 ** extensions
-** asynchronous error handling
 ** client server programming
+<<<<<<< HEAD
+<<<<<<< HEAD
 ** security
 
 happily ever after
+=======
+=======
+>>>>>>> master
+** Meta Programming
+*** code generation
+* TODO Data Structures
+* TODO Dart & Web
+** dart and html
+** calling dart from javascript
+** dart and JavaScript inter operation
+<<<<<<< HEAD
+>>>>>>> e47aaac (1403/01/03)
+=======
+>>>>>>> master
