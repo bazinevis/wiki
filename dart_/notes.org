@@ -7,3 +7,4 @@
 + Every book or website article is made of text nodes with some text
   added to the beginning and end of it. text nodes are important. text
   nodes sould be generic to be fit in the books and articles.
++ everytime I read about one aspect of dart language, I can update concepts and dart documents and little by little the whole document will be created.
