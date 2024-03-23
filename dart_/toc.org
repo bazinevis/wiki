@@ -1,44 +1,19 @@
 #+STARTUP: overview
 #+title: Table of Contents
 
-+ I want the book and site has a consistent art style. art in displaying images and graphs and logo.
-+ the goal is after reading this book, reader can without any help (except this book) and without looking on any code, begin to write code. this book is comprehensive and in detail.
-+ every text node has some prerequisites and every text node can be a prerequisite to another text node. 
-+ every text node has number of read and passed tag.
-+ (application/web) & book
-+ in application & web i should show what are the prerequisites of current text node and how many times they were read and are they passed or not. 
-
 * TODO Once Upon a Time Dart
 ** Setting up things
 *** installation of tools
 *** dart pad
 ** design principles
 ** hello world program
-
-<<<<<<< HEAD
-<<<<<<< HEAD
+** dart vm and how dart executes
+** dart versions
+** prerequisite to this text
+*** knowing programming concepts
 * TODO Fundamentals
-** Statements & Expressions
->>>>>>> master
-*** control flow
-**** conditionals
-***** if else
-**** loops
-***** for loop
-***** while loop
-***** do while loop
-***** for in loop
-**** switch statement
-**** break and continue
-**** collection if
-*** collection for
-** Functions
-*** functions as objects
-*** closures
-*** function types
-*** named and optional parameters
-*** anonymous functions and arrow syntax
-** object oriented
+** Comments
+** objects and nothing more
 *** everything is an object
 *** classes
 **** creating objects
@@ -71,7 +46,23 @@
 **** private constructors
 **** factory constructors
 **** constant constructors
-** Comments
+** Statements & Expressions
+*** control flow
+**** conditionals
+***** if else
+**** loops
+***** for loop
+***** while loop
+***** do while loop
+***** for in loop
+**** switch statement
+**** break and continue
+** Functions
+*** functions as objects
+*** closures
+*** function types
+*** named and optional parameters
+*** anonymous functions and arrow syntax
 ** Type System
 *** type checking
 *** type conversion
@@ -83,6 +74,8 @@
 *** type inference
 *** var keyword
 *** collections
+**** collection if
+**** collection for
 *** iterators
 ** operators
 *** operators precedence
@@ -143,7 +136,3 @@ happily ever after
 ** dart and html
 ** calling dart from javascript
 ** dart and JavaScript inter operation
-<<<<<<< HEAD
->>>>>>> e47aaac (1403/01/03)
-=======
->>>>>>> master
