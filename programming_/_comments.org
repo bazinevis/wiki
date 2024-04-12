@@ -10,11 +10,33 @@ Documentation comments
 Tags
 Comments in GDScript, Python, C++, C#, Lua, HTML
 
-
+#+begin_quote
+Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.
+- Eagleson's Law
+#+end_quote
 * Abstract
 
 * Introduction
 
 * Styles
+block and single line comments
 
 * Examples
+** Gdscript 
+#+begin_src gdscript
+#+end_src
+** Python 
+#+begin_src python
+#+end_src
+** C++
+#+begin_src cpp
+#+end_src
+** C#
+#+begin_src csharp
+#+end_src
+** Lua
+#+begin_src lua
+#+end_src
+** HTML
+#+begin_src html
+#+end_src
