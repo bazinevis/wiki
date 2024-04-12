@@ -1,7 +1,7 @@
 #+STARTUP: overview
 #+title: Table of Contents
 
-* TODO Once Upon a Time Dart
+* Once Upon a Time Dart
 ** Setting up things
 *** installation of tools
 *** dart pad
@@ -11,7 +11,7 @@
 ** dart versions
 ** prerequisite to this text
 *** knowing programming concepts
-* TODO Fundamentals
+* Fundamentals
 ** Comments
 ** objects and nothing more
 *** everything is an object
@@ -84,7 +84,7 @@
 ** generic
 *** generic functions
 *** generic collection
-* TODO Dart API
+* Dart API
 ** dart:core
 ** dart:math
 ** dart:io
@@ -101,7 +101,7 @@
 ** maps
 ** sets
 ** Implementing data structures
-* TODO Advanced Concepts
+* Advanced Concepts
 ** Metadata
 ** Concurrency
 *** future
@@ -131,8 +131,8 @@ happily ever after
 >>>>>>> master
 ** Meta Programming
 *** code generation
-* TODO Data Structures
-* TODO Dart & Web
+* Data Structures
+* Dart & Web
 ** dart and html
 ** calling dart from javascript
 ** dart and JavaScript inter operation

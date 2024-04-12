@@ -1,0 +1,20 @@
+#+title: Comments
+
+* COMMENT Notes
+Comments are ignored during compilation so during execution
+Comments play an important role for understanding of code.
+Comments are used for documentation.
+Single line
+Multi line
+Documentation comments
+Tags
+Comments in GDScript, Python, C++, C#, Lua, HTML
+
+
+* Abstract
+
+* Introduction
+
+* Styles
+
+* Examples
