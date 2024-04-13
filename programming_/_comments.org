@@ -1,42 +1,65 @@
 #+title: Comments
 
-* COMMENT Notes
-Comments are ignored during compilation so during execution
-Comments play an important role for understanding of code.
-Comments are used for documentation.
-Single line
-Multi line
-Documentation comments
-Tags
-Comments in GDScript, Python, C++, C#, Lua, HTML
+# Comments are ignored during compilation so during execution
+# Comments play an important role for understanding of code.
+# Comments are used for documentation.
+# Single line
+# Multi line
+# Documentation comments
+# Tags
+# https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html
 
 #+begin_quote
-Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.
+Any code of your own that you haven't looked at for six or more months might as
+well have been written by someone else.
 - Eagleson's Law
 #+end_quote
+
 * Abstract
+Every programming language has some mechanism to set a note about code. to
+describe what the code does and the purpose of it. even though code should be
+written in a way that it is self explanatory the comments helps underestanding
+code. comments describe the code written in low programming language level to
+humans speeking high level natural languages. the best practice would be to write comments before writting code.
+
+comments can be used to documnet the code. using comments sometimes you won't
+need any prepheral book or medium to describe what your code does. you can
+document your code using just comments but in a proper way.
+
+comments are not evaluated in runtime. there are two ways to comment. single
+line and multiline or block. every programming language uses a special symbols
+to indicate where the comments starts and ends. single line comments start at
+some point in the line with that special symbol and ends with new line
+character. multi line comments start with that special symbol and ends with
+ending symbol. every programming language has rules about how comments must be written and it depends on the grammar of that programming language.
+
+comments can be extracted from the code using some tools to express the
+documentation of the source code. comments can make code maintenance much
+easier. using comments one can look at the comment of a working function and
+find out what it does without knowing how it does that operation.
+
+ Primarily, a single "block" comment should be placed at the top of the function (or file) and describe the purpose the code and any algorithms used to accomplish the goal. In-line comments should be used sparingly, only where the code is not "self-documenting".
+
+When you do use "in-line" comments, you should place them before (or next to) any code that is not self explanatory. This comment should detail the "idea" behind the code and what is to be accomplished. It may also say how this is to be accomplished if the "algorithm" is complex.
+
+block comments are used when we want to document the big chunk of code like a file or a class.
+single line comments are very short and are used before or next to the code that is not self explanatory.
+
+using appropriate variable and function names there shouldn't need to use comments.
+
+tools that extract the comments expect that comments has a special styles.
+
+
+Self Documenting Code
+
+Self documenting code uses well chosen variable names (and function names) to make the code read as close to English as possible. This should be your goal.
+
+For example, naming a variable g has little meaning, but naming a variable gravity gives a much better description of what the variable should contain.
+
+By using proper variable and function names, you should minimize the amount of "external" documentation that is necessary
+
 
 * Introduction
 
 * Styles
 block and single line comments
-
-* Examples
-** Gdscript 
-#+begin_src gdscript
-#+end_src
-** Python 
-#+begin_src python
-#+end_src
-** C++
-#+begin_src cpp
-#+end_src
-** C#
-#+begin_src csharp
-#+end_src
-** Lua
-#+begin_src lua
-#+end_src
-** HTML
-#+begin_src html
-#+end_src
