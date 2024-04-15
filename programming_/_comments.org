@@ -1,13 +1,7 @@
+:PROPERTIES:
+:REFINEMENT: 0002
+:END:
 #+title: Comments
-
-# Comments are ignored during compilation so during execution
-# Comments play an important role for understanding of code.
-# Comments are used for documentation.
-# Single line
-# Multi line
-# Documentation comments
-# Tags
-# https://users.cs.utah.edu/~germain/PPS/Topics/commenting.html
 
 #+begin_quote
 Any code of your own that you haven't looked at for six or more months might as
@@ -15,51 +9,34 @@ well have been written by someone else.
 - Eagleson's Law
 #+end_quote
 
-* Abstract
-Every programming language has some mechanism to set a note about code. to
-describe what the code does and the purpose of it. even though code should be
-written in a way that it is self explanatory the comments helps underestanding
-code. comments describe the code written in low programming language level to
-humans speeking high level natural languages. the best practice would be to write comments before writting code.
+In programming, comments are essential for improving code comprehension. Across
+various programming languages, comments serve as guides, helping to bridge the
+gap between the technical language of code and human understanding. While code
+should ideally be clear on its own, comments provide additional explanations and
+context, making it easier for developers to understand and work with the code,
+thereby facilitating maintenance and troubleshooting. Furthermore, it's
+important to note that comments are eliminated before compilation and therefore
+do not impact runtime performance, ensuring that the execution of the code
+remains unaffected.
 
-comments can be used to documnet the code. using comments sometimes you won't
-need any prepheral book or medium to describe what your code does. you can
-document your code using just comments but in a proper way.
+Comments can effectively document code, sometimes eliminating the need for
+additional means to describe its functionality. With proper usage, code
+documentation can be achieved solely through comments. Additionally, there are
+tools available that can extract comments from source code and generate a
+compact, formatted document. These tools often require comments to be written in
+specific formats and can create links to various parts of code elements, thereby
+facilitating easier code comprehension.
 
-comments are not evaluated in runtime. there are two ways to comment. single
-line and multiline or block. every programming language uses a special symbols
-to indicate where the comments starts and ends. single line comments start at
-some point in the line with that special symbol and ends with new line
-character. multi line comments start with that special symbol and ends with
-ending symbol. every programming language has rules about how comments must be written and it depends on the grammar of that programming language.
+Comments in programming languages come in two forms: single-line and multiline
+(or block) comments. Each language utilizes special symbols to denote the
+beginning and end of comments. Single-line comments typically start with the
+special symbol and extend to the end of the line. On the other hand, multiline
+comments begin with a specific symbol and conclude with its corresponding ending
+symbol. The rules governing comment syntax are defined by the grammar of each
+programming language.
 
-comments can be extracted from the code using some tools to express the
-documentation of the source code. comments can make code maintenance much
-easier. using comments one can look at the comment of a working function and
-find out what it does without knowing how it does that operation.
-
- Primarily, a single "block" comment should be placed at the top of the function (or file) and describe the purpose the code and any algorithms used to accomplish the goal. In-line comments should be used sparingly, only where the code is not "self-documenting".
-
-When you do use "in-line" comments, you should place them before (or next to) any code that is not self explanatory. This comment should detail the "idea" behind the code and what is to be accomplished. It may also say how this is to be accomplished if the "algorithm" is complex.
-
-block comments are used when we want to document the big chunk of code like a file or a class.
-single line comments are very short and are used before or next to the code that is not self explanatory.
-
-using appropriate variable and function names there shouldn't need to use comments.
-
-tools that extract the comments expect that comments has a special styles.
-
-
-Self Documenting Code
-
-Self documenting code uses well chosen variable names (and function names) to make the code read as close to English as possible. This should be your goal.
-
-For example, naming a variable g has little meaning, but naming a variable gravity gives a much better description of what the variable should contain.
-
-By using proper variable and function names, you should minimize the amount of "external" documentation that is necessary
-
-
-* Introduction
-
-* Styles
-block and single line comments
+It is widely accepted that block comments are employed to document large
+sections of code, such as files or classes. Conversely, single-line comments are
+brief and are typically placed before or alongside code that lacks
+self-explanation. Importantly, it's worth noting that several consecutive
+single-line comments can be used to convey a block-like comment within the code.
